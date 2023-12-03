@@ -668,7 +668,6 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 15px;
     padding: 72px 24px 24px 24px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -682,7 +681,7 @@ h1 {
     right: 24px;
     padding: 0;
     background-color: transparent;
-    border: none;
+
     line-height: 0;
     transition: stroke 250ms linear;
     width: 24px;
@@ -706,6 +705,7 @@ h1 {
 .close-btn:focus {
     fill: #ffffff;
     background-color: #404BBF;
+    border: none;
 }
 
 .description-form {
@@ -717,7 +717,6 @@ h1 {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.02em;
-    margin-top: 48px;
     margin-bottom: 16px;
     font-weight: 500;
 }
