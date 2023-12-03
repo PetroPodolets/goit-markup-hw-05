@@ -853,6 +853,10 @@ h1 {
     opacity: 1;
 }
 
+.privacy {
+    color: #4d5ae5;
+}
+
 .form-submit-btn {
     background: #4D5AE5;
     color: #fff;
