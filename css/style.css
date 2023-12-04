@@ -791,6 +791,7 @@ h1 {
     background-color: transparent;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
 }
 
 .form-field-comment:focus {
@@ -855,6 +856,7 @@ h1 {
 
 .privacy {
     color: #4d5ae5;
+    text-decoration: none;
 }
 
 .form-submit-btn {
